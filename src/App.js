@@ -7,6 +7,7 @@ import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import PersonalPage from './components/pages/PersonalPage';
+import BlogDetails from './components/pages/BlogDetails';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/personal' component={SignUp}/>
           <Route path='/profile' component={PersonalPage}/>
+          <Route path="/blogs/:id">
+              <BlogDetails></BlogDetails>
+            </Route>
         </Switch>
       </Router>
     </>

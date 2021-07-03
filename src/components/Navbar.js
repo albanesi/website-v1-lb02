@@ -72,12 +72,12 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                About Me
               </Link>
             </li>
           </ul>
-          {/*we check the button state and if positive than thebutton will be printed*/}
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {/*we check the button state and if positive than the button will be printed*/}
+          {button && <Button buttonStyle='btn--outline'>About Me</Button>}
         </div>
       </nav>
     </>
